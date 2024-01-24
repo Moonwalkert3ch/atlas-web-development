@@ -35,3 +35,7 @@ The list of existing CSS properties is pretty straightforward, but selectors can
 
 if you want to be selecting only a few links of your choosing, you can add a “class” attribute to them (like this: <a class="active_page">), and select only those ones, using the a.active_page selector. This works with absolutely all existing HTML tags, and you can use any class name you like.
 if you want to select only the links pointed to webpages that were previously visited by your user, you can use the selector a:visited. “:visited” is called a pseudo-class. Another nice pseudo-class is “:hover”, for HTML tags that the user currently has her mouse on.
+
+## CSS WebPage to copy Final View
+
+![image](https://github.com/Moonwalkert3ch/atlas-web-development/assets/132849866/e0b66bed-7001-47e4-8665-e6f90bf0d289)
