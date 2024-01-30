@@ -1,0 +1,21 @@
+body {
+    background-image: url('images/background.png'); 
+    width: 1440px;
+    height: 1093px;
+    flex-shrink: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default body margin */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Add other styles as needed */
+header {
+    /* Add styles for the header section */
+}
+
+main {
+    /* Add styles for the main section */
+}
+
+/* Add more styles for other sections and elements as needed */
