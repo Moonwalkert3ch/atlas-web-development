@@ -1,18 +1,55 @@
 body {
     background-image: url('images/background.png'); 
+    background-blend-mode: normal, color;
     width: 1440px;
     height: 1093px;
     flex-shrink: 0;
-    background-position: center;
+    background-size: cover;
+    background-position: relatve;
     background-repeat: no-repeat;
     margin: 0; /* Remove default body margin */
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* Add other styles as needed */
-header {
-    /* Add styles for the header section */
+.logo-properties {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    padding-left: 5%;
 }
+
+.logo-properties img {
+    width: 167.016px;
+    height:29.461px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    justify-content: right;
+    }
+
+    menu {
+        display: flex;
+        list-style: none;
+        margin: 5;
+    }
+    
+    menu a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px; 
+    }
+
+    menu a:hover {
+        text-decoration: none;
+    }
 
 main {
     /* Add styles for the main section */
