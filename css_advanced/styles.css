@@ -1,14 +1,17 @@
 body {
+    width: auto;
+    height: auto;
+}
+
+header {
     background-image: url('images/background.png'); 
     background-blend-mode: normal, color;
-    width: 1440px;
-    height: 1093px;
+    width: auto;
+    height: 1293px;
     flex-shrink: 0;
     background-size: cover;
     background-position: relatve;
     background-repeat: no-repeat;
-    margin: 0; /* Remove default body margin */
-    margin-bottom: 0px;
     font-family: 'Source Sans Pro', sans-serif;
     
 }
@@ -28,7 +31,7 @@ body {
     color: #FFFFFF;
 }
 
-header {
+header menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,30 +60,29 @@ menu a:hover {
 }
 
 main section div h1 {
-    color: #FFF;
-    text-align: center;
-    padding-left: 15%;
-    padding-top: 8%;
-    margin-bottom: 1px;
+    color: #FFFFFF;
     font-family: "Source Sans Pro";
     font-size: 120px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    top: 320px;
+    margin-left: 620px;
 }
 
-main section div p {
-    color: #FFF;
-    text-align: center;
+.advertise p {
+    color: #FFFFFF;
     font-family: "Source Sans Pro";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 15%;
-    margin-top: 0px;
+    top: 570px;
+    margin-left: 960px;
     justify-content: space-evenly;
     word-spacing: 50px;
+    position: absolute;
 }
 
 main section div button {
@@ -90,42 +92,38 @@ main section div button {
     height: 44px;
     flex-shrink: 0;
     text-align: center;
-    margin-top: 8px;
-    margin-left: 52%;
-    margin-bottom: 19%;
     color: #FFF;
     font-family: "Source Sans Pro";
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    top: 660px;
+    margin-left: 1000px;
+    position: absolute;
 }
 
-.smile-winners h2 {
-    color: #FFF;
+main section div h2 {
+    color: #FFFFFF;
     font-family: "Source Sans Pro";
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    text-align: center;
-    margin-bottom: 5px;
+    position: absolute;
+    white-space: nowrap;
+    top: -230px;
+    margin-left: 1000px;
 }
 
 .smile-winners b {
     color: #C271FF;
-    font-family: "Source Sans Pro";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .smile-winners {
-    position: relative;
-    overflow: hidden;
+    position: absolute;
 }
-
+/*
 .round-photo {
     display: inline-block;
     width: 150px;
@@ -182,3 +180,4 @@ section section {
     text-align: right;
     color: #FFFFFF;
 }
+*/
