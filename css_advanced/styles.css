@@ -8,7 +8,9 @@ body {
     background-position: relatve;
     background-repeat: no-repeat;
     margin: 0; /* Remove default body margin */
+    margin-bottom: 0px;
     font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 .logo-properties {
@@ -120,93 +122,63 @@ main section div button {
 }
 
 .smile-winners {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    position: relative;
+    overflow: hidden;
 }
 
-.round-photo1 {
+.round-photo {
+    display: inline-block;
     width: 150px;
     height: 150px;
     border-radius: 50%; 
     overflow: hidden;
-    margin-top: 8%;
-    flex-shrink: 0;
-    flex-direction: column;
+    margin: 3% 5% 45px 10%;
+    margin-left: 5%;
 }
 
-.round-photo1 img {
+.name {
+    display: inline;
+    
+}
+
+.round-photo img {
     width: 100%;
     height: 100%;
-    flex-shrink: 0;
+    display: block;
 }
 
-.round-photo1 h3 {
-    color: red;
-    text-align: center;
-    font-family: "Source Sans Pro";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 27px; /* 150% */
-    width: 150px;
+.round-photo .name h3 {
+    color: #FFFFFF;
+    position: absolute;
+    display: inline;
 }
 
-.round-photo1 p {
-    color: purple;
-    text-align: center;
-    font-family: "Source Sans Pro";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 27px; /* 150% */
-    width: 150px;
+.round-photo .name p {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
 }
 
-.round-photo2 {
+section section {
+    background: #C271FF;
+    width: 300px;
+    height: 300px;
+}
+.quote-box {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    color: #C271FF;
     overflow: hidden;
-    margin-top: 8%;
-    flex-shrink: 0;
-    flex-direction: column;
 }
 
-.round-photo2 img {
+.quote-box img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    float: left;
 }
 
-.round-photo3 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 8%;
-    flex-shrink: 0;
-    flex-direction: column;
-}
-
-.round-photo3 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.round-photo4 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: 8%;
-    flex-shrink: 0;
-    flex-direction: column;
-}
-
-.round-photo4 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.quote {
+    text-align: right;
+    color: #FFFFFF;
 }
