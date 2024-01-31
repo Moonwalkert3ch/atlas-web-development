@@ -7,7 +7,7 @@ header {
     background-image: url('images/background.png'); 
     background-blend-mode: normal, color;
     width: auto;
-    height: 1293px;
+    height: 1793px;
     flex-shrink: 0;
     background-size: cover;
     background-position: relatve;
@@ -112,7 +112,7 @@ main section div h2 {
     line-height: normal;
     position: absolute;
     white-space: nowrap;
-    top: -230px;
+    top: -730px;
     margin-left: 1000px;
 }
 
@@ -123,34 +123,74 @@ main section div h2 {
 .smile-winners {
     position: absolute;
 }
-/*
-.round-photo {
-    display: inline-block;
+
+.round-photo1 {
     width: 150px;
     height: 150px;
     border-radius: 50%; 
     overflow: hidden;
-    margin: 3% 5% 45px 10%;
-    margin-left: 5%;
+    position: absolute;
+    top: -555px;
+    margin-left: 350px;
 }
 
 .name {
     display: inline;
-    
 }
 
-.round-photo img {
+.round-photo1 img {
     width: 100%;
     height: 100%;
     display: block;
 }
 
+.round-photo2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    position: absolute;
+    top: -555px;
+    margin-left: 800px;
+}
+
+.round-photo2 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.round-photo3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    position: absolute;
+    top: -555px;
+    margin-left: 1250px;
+}
+
+.round-photo3 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.round-photo4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    top: -555px;
+    margin-left: 1700px;
+    position: absolute;
+}
 .round-photo .name h3 {
     color: #FFFFFF;
     position: absolute;
     display: inline;
 }
-
+/*
 .round-photo .name p {
     color: #FFFFFF;
     position: absolute;
