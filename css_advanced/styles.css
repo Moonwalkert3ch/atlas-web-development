@@ -449,7 +449,7 @@ main section div .advertise .name1 h3 {
 
 .membership-block {
     width: 100%;
-    height: 750px;
+    height: 650px;
     background-color: #071629;
 }
 
@@ -466,3 +466,128 @@ main section div .advertise .name1 h3 {
     color: #C271FF;
 }
 
+.column-one img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 250px;
+}
+
+.column-one h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 220px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-one p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 190px;
+    width: 250px;
+}
+
+.column-two img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 750px;
+}
+
+.column-two h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 720px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-two p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 700px;
+    width: 250px;
+}
+
+.column-three img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 1150px;
+}
+
+.column-three h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 1120px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-three p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 1090px;
+    width: 250px;
+}
+
+.column-four img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 1550px;
+}
+
+.column-four h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 1520px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-four p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 1490px;
+    width: 250px;
+}
+
+.membership-block button {
+    border-radius: 22px;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 3650px;
+    margin-left: 1100px;
+}
