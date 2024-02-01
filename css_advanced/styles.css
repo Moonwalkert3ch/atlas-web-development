@@ -326,6 +326,15 @@ main section div .advertise .name1 h3 {
     margin-left: 650px;
 }
 
+.video-block .sad-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+}
+
 .sad-smile h3 {
     position: absolute;
     top: 260px;
@@ -376,6 +385,15 @@ main section div .advertise .name1 h3 {
     color: #C271FF;
 }
 
+.video-block .natural-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+}
+
 .natural-smile p {
     text-wrap: wrap;
     width: 300px;
@@ -417,6 +435,15 @@ main section div .advertise .name1 h3 {
     top: 260px;
     margin-left: 45px;
     color: #C271FF;
+}
+
+.video-block .happy-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
 }
 
 .happy-smile p {
