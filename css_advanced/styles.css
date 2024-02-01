@@ -240,7 +240,7 @@ main section div .advertise .name1 h3 {
 
 .video-block {
     width: 100%;
-    height: 700px;
+    height: 750px;
     background-color: #FFFFFF;
 }
 
@@ -269,14 +269,48 @@ main section div .advertise .name1 h3 {
     margin-left: 350px;
 }
 
+.video-block .diagonal-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+}
+
 .diagonal-smile p {
     text-wrap: wrap;
     width: 300px;
+    position: absolute;
+    top: 190px;
 }
 
-.author-block img {
+.diagonal-smile .author-block img {
     width: 30px;
     height: 30px;
+    position: absolute;
+    top: 270px;
+}
+
+.diagonal-smile .author-block h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.diagonal-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.diagonal-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
 }
 
 .sad-smile img {
@@ -292,12 +326,143 @@ main section div .advertise .name1 h3 {
     margin-left: 650px;
 }
 
+.sad-smile h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.sad-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
 .sad-smile p {
     text-wrap: wrap;
     width: 300px;
+    position: absolute;
+    top: 190px;
 }
 
 .sad-smile .author-block img {
     width: 30px;
     height: 30px;
+    position: absolute;
+    top: 270px;
 }
+
+.sad-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
+}
+
+.natural-smile {
+    width: 150%
+    height: 150%;
+    position: absolute;
+    top: 2600px;
+    margin-left: 950px;
+}
+
+.natural-smile h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.natural-smile p {
+    text-wrap: wrap;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+}
+
+.natural-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.natural-smile .author-block img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 270px;
+}
+
+.natural-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
+}
+
+.happy-smile {
+    width: 150%
+    height: 150%;
+    position: absolute;
+    top: 2600px;
+    margin-left: 1250px;
+}
+
+.happy-smile h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.happy-smile p {
+    text-wrap: wrap;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+}
+
+.happy-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.happy-smile .author-block img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 270px;
+}
+
+.happy-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
+}
+
+.membership-block {
+    width: 100%;
+    height: 750px;
+    background-color: #071629;
+}
+
+.membership-block h1 {
+    color: #FFF;
+    position: absolute;
+    top: 3150px;
+    margin-left: 1050px;
+    font-family: "Source Sans Pro";
+    font-size: xx-large;
+}
+
+.membership-block h1 b {
+    color: #C271FF;
+}
+
