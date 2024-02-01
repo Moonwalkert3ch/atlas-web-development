@@ -206,6 +206,8 @@ main section div .advertise .name1 h3 {
     background-color: #C271FF;
     width: 100%;
     height: 570px;
+    position: relative;
+    align-content: center;
 }
 
 .quote-box {
@@ -214,32 +216,30 @@ main section div .advertise .name1 h3 {
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    top: 2000px;
-    margin-left: 400px;
+    top: 40%;
+    left: 400px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .quote-box img {
     width: 100%;
     height: 100%;
+    position: absolute;
+    flex-shrink: 0;
 }
 
-.quote p {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-  }
-.quote blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-  }
 .quote blockquote p {
+    color: blue;
     position: absolute;
-  }
+    font-family: "Source Sans Pro";
+    top: 20%;
+    width: 500px;
+    text-wrap: wrap;
+    margin: 0;
+}
 
 .video-block {
     width: 100%;
